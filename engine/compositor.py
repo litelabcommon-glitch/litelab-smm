@@ -95,6 +95,28 @@ def ensure_litelab_logo_stamp() -> Path:
     return logo_path
 
 
+def apply_editorial_top_scrim(img: Image.Image, scrim_height_ratio: float = 0.46, max_alpha: int = 165) -> Image.Image:
+    """
+    Applies a smooth luxury editorial top gradient scrim (Obsidian #0F1114 fading to 0 alpha)
+    over the upper negative space so White & Gold (#D4AF37) typography has magazine-grade contrast
+    on full-bleed architectural photographs.
+    """
+    w, h = img.size
+    scrim_h = int(h * scrim_height_ratio)
+    overlay = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    y_coords = np.linspace(0.0, 1.0, scrim_h)
+    # Smooth cosine/quadratic ease-out curve
+    alphas = (max_alpha * (1.0 - (y_coords ** 1.4))).astype(np.uint8)
+    grad_col = np.zeros((scrim_h, w, 4), dtype=np.uint8)
+    grad_col[:, :, 0] = 15  # #0F
+    grad_col[:, :, 1] = 17  # #11
+    grad_col[:, :, 2] = 20  # #14
+    grad_col[:, :, 3] = alphas[:, None]
+    top_grad = Image.fromarray(grad_col, mode="RGBA")
+    overlay.paste(top_grad, (0, 0))
+    return Image.alpha_composite(img.convert("RGBA"), overlay)
+
+
 def sample_region_luminance(img: Image.Image, box: tuple[int, int, int, int]) -> float:
     """Compute mean luminance (0..255) inside a bounding box."""
     x1, y1, x2, y2 = (
@@ -259,12 +281,23 @@ def composite_vertical(
     raw = Image.open(canvas_path).convert("RGBA")
     w, h = raw.size
     target_w, target_h = target_size
+    target_aspect = target_w / target_h
+    src_aspect = w / h
 
-    crop_h = int(w * target_h / target_w)
-    if h > crop_h:
-        img = raw.crop((0, h - crop_h, w, h)).resize(target_size, Image.Resampling.LANCZOS)
+    if src_aspect > target_aspect:
+        # Landscape / wider image: center-crop horizontally to 4:5 aspect ratio
+        new_w = int(h * target_aspect)
+        left = (w - new_w) // 2
+        img = raw.crop((left, 0, left + new_w, h)).resize(target_size, Image.Resampling.LANCZOS)
+    elif src_aspect < target_aspect:
+        # Taller portrait image: bottom-aligned crop to 4:5 aspect ratio
+        new_h = int(w / target_aspect)
+        img = raw.crop((0, h - new_h, w, h)).resize(target_size, Image.Resampling.LANCZOS)
     else:
         img = raw.resize(target_size, Image.Resampling.LANCZOS)
+
+    if spec.get("editorial_scrim", True):
+        img = apply_editorial_top_scrim(img, scrim_height_ratio=0.46, max_alpha=170)
 
     idx = spec["index"]
     is_last = idx == total_slides
@@ -356,7 +389,13 @@ def composite_square(
     raw = Image.open(canvas_path).convert("RGBA")
     w, h = raw.size
 
-    crop_sq = raw.crop((0, max(0, h - w), w, h)).resize((1080, 1080), Image.Resampling.LANCZOS)
+    if w > h:
+        left = (w - h) // 2
+        crop_sq = raw.crop((left, 0, left + h, h)).resize((1080, 1080), Image.Resampling.LANCZOS)
+    else:
+        crop_sq = raw.crop((0, max(0, h - w), w, h)).resize((1080, 1080), Image.Resampling.LANCZOS)
+    if spec.get("editorial_scrim", True):
+        crop_sq = apply_editorial_top_scrim(crop_sq, scrim_height_ratio=0.48, max_alpha=170)
     draw = ImageDraw.Draw(crop_sq)
     idx = spec["index"]
     is_last = idx == total_slides

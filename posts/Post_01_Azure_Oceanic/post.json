@@ -1,0 +1,204 @@
+{
+  "id": "Post_01_Azure_Oceanic",
+  "title": "How to Light a 9,000 Sq.Ft Oceanfront Villa — Azure The Oceanic, Chennai",
+  "product": "AzureOceanic",
+  "pillar": "portfolio",
+  "brand_handle": "@litelab.in",
+  "scheduled_date": "2026-10-30",
+  "time": "06:30 PM",
+  "canvas_size": [1080, 1350],
+  "last_cue": "Book Lighting Consult →",
+  "inpaint_watermark": false,
+  "platforms": [
+    "zohosocial",
+    "linkedin",
+    "instagram"
+  ],
+  "zoho_networks": [
+    "instagram",
+    "linkedin",
+    "facebook"
+  ],
+  "caption": "Lighting a 9,000 sq.ft oceanfront residence demands absolute restraint. Any exposed ceiling glare immediately reflects off floor-to-ceiling coastal glass and ruins the night horizon.\n\nFor Azure — The Oceanic in Chennai (Architecture by WOW Architects, Singapore), LITELAB engineered a three-tier architectural illumination system:\n\n1. Concealed Perimeter Slots: 2700K indirect coves float the warm timber ceilings without visible hardware.\n2. Deep-Recessed Anti-Glare Optics (UGR < 16, CRI 97+): Precision 15° pinholes graze stone walls and private art while keeping glass reflections crystal clear.\n3. Seamless Terrace & Pool Integration: Marine-grade 2700K step and deck luminaires extend the living room's visual depth out to the coastline.\n\nExplore the full residential monograph or schedule a lighting design consultation with LITELAB at litelab.in ↓",
+  "hashtags": [
+    "#LITELAB",
+    "#ArchitecturalLighting",
+    "#AzureTheOceanic",
+    "#WOWArchitects",
+    "#LuxuryResidences",
+    "#LightingDesign",
+    "#ChennaiArchitecture",
+    "#LitelabMilano"
+  ],
+  "media": {
+    "pdf": "posts/Post_01_Azure_Oceanic/pdf/AzureOceanic_LinkedIn_Carousel.pdf",
+    "instagram_carousel": [
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_01.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_02.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_03.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_04.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_05.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_06.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_07.png",
+      "posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_08.png"
+    ],
+    "whatsapp_catalog": [
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_01.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_02.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_03.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_04.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_05.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_06.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_07.png",
+      "posts/Post_01_Azure_Oceanic/whatsapp/AzureOceanic_WA_08.png"
+    ]
+  },
+  "status": "ready",
+  "slides": [
+    {
+      "index": 1,
+      "canvas_name": "slide_01.jpg",
+      "tag": "RESIDENTIAL MONOGRAPH · 01",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "How to Light a",
+        "9,000 Sq.Ft",
+        "[Oceanfront Villa.]"
+      ],
+      "subheadline": "Azure — The Oceanic, Chennai. Architecture by WOW Architects (Singapore) · Lighting by LITELAB."
+    },
+    {
+      "index": 2,
+      "canvas_name": "slide_02.jpg",
+      "tag": "DOUBLE-HEIGHT VOLUME",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "Concealed Coves",
+        "Float Warm",
+        "[Timber Ceilings.]"
+      ],
+      "subheadline": "Indirect 2700K perimeter slots establish spatial warmth with zero visible ceiling clutter."
+    },
+    {
+      "index": 3,
+      "canvas_name": "slide_03.jpg",
+      "tag": "GLARE CONTROL · UGR < 16",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "Zero Mirror Glare",
+        "Across Coastal",
+        "[Glass Horizons.]"
+      ],
+      "subheadline": "Deep-baffled darklight optics prevent unwanted reflections on ocean-facing windows at night."
+    },
+    {
+      "index": 4,
+      "canvas_name": "slide_04.jpg",
+      "tag": "SCULPTURAL HIERARCHY",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "Decorative Pendants",
+        "Anchor Human",
+        "[Gathering Zones.]"
+      ],
+      "subheadline": "Bespoke warm-dimming luminaires bring intimate scale to expansive double-height dining rooms."
+    },
+    {
+      "index": 5,
+      "canvas_name": "slide_05.jpg",
+      "tag": "MATERIAL GRAZING · CRI 97+",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "15° Narrow Beams",
+        "Sculpt Stone &",
+        "[Private Artworks.]"
+      ],
+      "subheadline": "Museum-grade color rendering brings tactile relief to travertine walls and curated pieces."
+    },
+    {
+      "index": 6,
+      "canvas_name": "slide_06.jpg",
+      "tag": "INDOOR-OUTDOOR FLOW",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "Integrated Deck",
+        "Luminaires Extend",
+        "[Visual Depth.]"
+      ],
+      "subheadline": "Subtle 2700K step and pool-terrace accents dissolve the boundary between lounge and sea."
+    },
+    {
+      "index": 7,
+      "canvas_name": "slide_07.jpg",
+      "tag": "DYNAMIC SCENE CONTROL",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "headline_lines": [
+        "Seamless Scenes",
+        "From Golden Hour",
+        "[to Midnight Calm.]"
+      ],
+      "subheadline": "Programmed dimming curves adapt lumen output to the natural rhythm of coastal living."
+    },
+    {
+      "index": 8,
+      "canvas_name": "slide_08.jpg",
+      "tag": "LITELAB LIGHTING STUDIO",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 115,
+      "max_width": 560,
+      "tag_size": 20,
+      "headline_size": 44,
+      "sub_size": 24,
+      "cue_word": "Book Lighting Consult →",
+      "headline_lines": [
+        "Commission Your",
+        "Next Architectural",
+        "[Lighting Masterwork.]"
+      ],
+      "subheadline": "250+ luxury residential & hospitality projects delivered. Connect with LITELAB at litelab.in."
+    }
+  ]
+}
