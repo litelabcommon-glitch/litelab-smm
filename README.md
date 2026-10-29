@@ -36,8 +36,13 @@ litelab-smm/
 │   └── rules.md                              # Workspace rules for LITELAB SMM
 ├── .agents/
 │   └── skills/
-│       └── litelab-smm-pipeline/
-│           └── SKILL.md                      # Antigravity skill for Higgsfield + Zoho Social workflow
+│       ├── litelab-smm-pipeline/
+│       │   └── SKILL.md                      # Antigravity skill for Higgsfield + Zoho Social workflow
+│       └── higgsfield-hand-sketch/
+│           ├── SKILL.md                      # Hand-drawn fineliner / stick-figure sketch + pen-markup skill
+│           ├── scripts/                      # sketch.sh (transparent diagrams) · markup.sh (markup over renders)
+│           ├── references/                   # Prompt contracts, crop math, print verification
+│           └── assets/style-reference.png    # 7 Eleven linework reference
 ├── .github/
 │   └── workflows/
 │       └── social_media_post.yml             # Daily 6:30 PM IST GitHub Actions scheduler
