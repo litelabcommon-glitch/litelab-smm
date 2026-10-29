@@ -1,0 +1,127 @@
+{
+  "id": "Post_TEMPLATE",
+  "title": "Why Overhead Downlights Alone Flatten Luxury Architecture",
+  "product": "LayeredLighting",
+  "pillar": "thesaurus",
+  "brand_handle": "@litelab.in",
+  "scheduled_date": "2026-11-01",
+  "time": "06:30 PM",
+  "canvas_size": [1080, 1350],
+  "last_cue": "Book Lighting Consult →",
+  "inpaint_watermark": false,
+  "platforms": [
+    "zohosocial",
+    "linkedin",
+    "instagram"
+  ],
+  "zoho_networks": [
+    "instagram",
+    "linkedin",
+    "facebook"
+  ],
+  "caption": "Relying solely on overhead downlights casts harsh shadows under brow-lines and flattens natural stone textures.\n\nAt LITELAB, every residential and monumental commission is engineered around our three-tier architectural layering methodology:\n\n1. Ambient Cove & Indirect Illumination (2700K) for calm spatial volume.\n2. Precision Focal Grazing (15° narrow beam, CRI 97+) to bring travertine, fluted timber, and artwork to life.\n3. Decorative & Human-Centric Warm Dimming for evening visual comfort (UGR < 16).\n\nBook an architectural lighting walkthrough with LITELAB Studio at litelab.in ↓",
+  "hashtags": [
+    "#LITELAB",
+    "#ArchitecturalLighting",
+    "#LightingDesign",
+    "#LuxuryInteriors",
+    "#LightingThesaurus",
+    "#ResidentialArchitecture",
+    "#LitelabMilano"
+  ],
+  "media": {
+    "pdf": "posts/Post_TEMPLATE/pdf/LayeredLighting_LinkedIn_Carousel.pdf",
+    "instagram_carousel": [
+      "posts/Post_TEMPLATE/instagram/LayeredLighting_IG_01.png",
+      "posts/Post_TEMPLATE/instagram/LayeredLighting_IG_02.png",
+      "posts/Post_TEMPLATE/instagram/LayeredLighting_IG_03.png",
+      "posts/Post_TEMPLATE/instagram/LayeredLighting_IG_04.png"
+    ],
+    "whatsapp_catalog": [
+      "posts/Post_TEMPLATE/whatsapp/LayeredLighting_WA_01.png",
+      "posts/Post_TEMPLATE/whatsapp/LayeredLighting_WA_02.png",
+      "posts/Post_TEMPLATE/whatsapp/LayeredLighting_WA_03.png",
+      "posts/Post_TEMPLATE/whatsapp/LayeredLighting_WA_04.png"
+    ]
+  },
+  "status": "draft",
+  "slides": [
+    {
+      "index": 1,
+      "canvas_name": "slide_01.jpg",
+      "tag": "LIGHTING THESAURUS · 01",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 120,
+      "max_width": 520,
+      "tag_size": 20,
+      "headline_size": 42,
+      "sub_size": 24,
+      "headline_lines": [
+        "Why Overhead",
+        "Downlights Alone",
+        "[Flatten Luxury Spaces.]"
+      ],
+      "subheadline": "A uniform grid of ceiling spots washes out material depth and creates harsh glare.",
+      "image_prompt": "Minimalist luxury residential living room in dusk light, smooth Venetian plaster upper wall in shadow, warm 2700K concealed cove lighting and subtle travertine stone grazing below"
+    },
+    {
+      "index": 2,
+      "canvas_name": "slide_02.jpg",
+      "tag": "TIER 01 · AMBIENT VOLUME",
+      "align": "right",
+      "x_pos": 540,
+      "y_pos": 120,
+      "max_width": 480,
+      "tag_size": 20,
+      "headline_size": 42,
+      "sub_size": 24,
+      "headline_lines": [
+        "Concealed Coves",
+        "Set the Emotional",
+        "[Rhythm of Living.]"
+      ],
+      "subheadline": "Indirect 2700K architectural coves lift ceiling height with zero visible hardware.",
+      "image_prompt": "Architectural detail of recessed ceiling perimeter cove casting soft 2700K warm glow across dark plaster ceiling, clean dark negative space on top right"
+    },
+    {
+      "index": 3,
+      "canvas_name": "slide_03.jpg",
+      "tag": "TIER 02 · FOCAL GRAZING",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 120,
+      "max_width": 520,
+      "tag_size": 20,
+      "headline_size": 42,
+      "sub_size": 24,
+      "headline_lines": [
+        "15° Narrow Beams",
+        "Sculpt Stone &",
+        "[Timber Textures.]"
+      ],
+      "subheadline": "CRI 97+ deep-recessed optics reveal every natural vein in travertine and marble.",
+      "image_prompt": "Architectural wall grazing study showing a 15-degree narrow beam luminaire grazing raw fluted limestone in the lower half, calm dark shadow plane in upper left"
+    },
+    {
+      "index": 4,
+      "canvas_name": "slide_04.jpg",
+      "tag": "LITELAB CONSULTATION",
+      "align": "left",
+      "x_pos": 55,
+      "y_pos": 120,
+      "max_width": 520,
+      "tag_size": 20,
+      "headline_size": 42,
+      "sub_size": 24,
+      "cue_word": "Book Lighting Consult →",
+      "headline_lines": [
+        "Engineer Your",
+        "Next Project With",
+        "[LITELAB Studio.]"
+      ],
+      "subheadline": "Explore 250+ bespoke residential & hospitality commissions at litelab.in.",
+      "image_prompt": "Exterior twilight view of an ultra-luxury modern residence overlooking water with warm 2700K architectural facade lighting, dark twilight sky in upper left"
+    }
+  ]
+}
