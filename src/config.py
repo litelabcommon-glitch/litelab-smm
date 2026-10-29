@@ -38,6 +38,8 @@ class Config:
     zoho_social_brand_id: str = ""
     zoho_social_portal_id: str = ""
     zoho_region: str = "in"
+    zoho_flow_webhook_url: str = ""
+    zoho_social_action_mode: str = "schedule"
     zoho_default_schedule_time: str = "06:30 PM"
     zoho_social_always_export_csv: bool = True
 
@@ -193,6 +195,8 @@ def load_config(dry_run_override: bool = False) -> Config:
         zoho_social_brand_id=os.getenv("ZOHO_SOCIAL_BRAND_ID", ""),
         zoho_social_portal_id=os.getenv("ZOHO_SOCIAL_PORTAL_ID", ""),
         zoho_region=os.getenv("ZOHO_REGION", "in"),
+        zoho_flow_webhook_url=os.getenv("ZOHO_FLOW_WEBHOOK_URL", ""),
+        zoho_social_action_mode=os.getenv("ZOHO_SOCIAL_ACTION_MODE", "schedule").lower(),
         zoho_default_schedule_time=os.getenv("ZOHO_DEFAULT_SCHEDULE_TIME", "06:30 PM"),
         zoho_social_always_export_csv=os.getenv("ZOHO_SOCIAL_ALWAYS_EXPORT_CSV", "true").lower() == "true",
         default_ai_provider=os.getenv("DEFAULT_AI_PROVIDER", "higgsfield"),

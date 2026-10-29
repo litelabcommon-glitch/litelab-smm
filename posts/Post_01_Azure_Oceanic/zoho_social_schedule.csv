@@ -1,4 +1,4 @@
-Date,Time,Message,Link URL,Media Path,Post ID
+Date,Time,Message,Link URL,Image URL,Local Media Path,Post ID
 10/30/2026,06:30 PM,"Lighting a 9,000 sq.ft oceanfront residence demands absolute restraint. Any exposed ceiling glare immediately reflects off floor-to-ceiling coastal glass and ruins the night horizon.
 
 For Azure — The Oceanic in Chennai (Architecture by WOW Architects, Singapore), LITELAB engineered a three-tier architectural illumination system:
@@ -9,4 +9,4 @@ For Azure — The Oceanic in Chennai (Architecture by WOW Architects, Singapore)
 
 Explore the full residential monograph or schedule a lighting design consultation with LITELAB at litelab.in ↓
 
-#LITELAB #ArchitecturalLighting #AzureTheOceanic #WOWArchitects #LuxuryResidences #LightingDesign #ChennaiArchitecture #LitelabMilano",https://litelab.in,posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_01.png,Post_01_Azure_Oceanic
+#LITELAB #ArchitecturalLighting #AzureTheOceanic #WOWArchitects #LuxuryResidences #LightingDesign #ChennaiArchitecture #LitelabMilano",https://litelab.in,https://raw.githubusercontent.com/litelabcommon-glitch/litelab-smm/main/posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_01.png,posts/Post_01_Azure_Oceanic/instagram/AzureOceanic_IG_01.png,Post_01_Azure_Oceanic

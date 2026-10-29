@@ -57,6 +57,8 @@ def build_publishers(cfg: Config) -> list[Any]:
                 brand_id=cfg.zoho_social_brand_id,
                 portal_id=cfg.zoho_social_portal_id,
                 region=cfg.zoho_region,
+                zoho_flow_webhook_url=cfg.zoho_flow_webhook_url,
+                action_mode=cfg.zoho_social_action_mode,
                 default_schedule_time=cfg.zoho_default_schedule_time,
                 dry_run=cfg.dry_run,
             )
